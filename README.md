@@ -32,21 +32,21 @@ Parameter ``` -u ``` is mandatory and <ins>MUST</ins> have a schema. Works with 
 
 *Optional parameters:*
 
-🔴``` -t / --threads ``` Specify the threads used for testing. Default=5 (Example: --threads 5 )
+``` -t / --threads ``` Specify the threads used for testing. Default=5 (Example: --threads 5 )
 
-🔵``` -s / --show ``` Only show results that match the specified HTTP status code(s). (Example: --show 200,301,404)
+``` -s / --show ``` Only show results that match the specified HTTP status code(s). (Example: --show 200,301,404)
 
-🔵``` -x / --hide``` Hide results that match the specified HTTP status code(s). (Example: --hide 401,503) 
+```-x / --hide``` Hide results that match the specified HTTP status code(s). (Example: --hide 401,503) 
 
-🟢``` --common ``` Test the 9 common HTTP methods. DEFAULT (Example: --common)
+``` --common ``` Test the 9 common HTTP methods. <b>DEFAULT</b> (Example: --common)
 
-🟢``` --all ``` Test all the available HTTP methods. (Example: --all)
+``` --all ``` Test all the available HTTP methods. (Example: --all)
 
-🟠``` -i / --ignore-ssl``` Ignore SSL errors.
+``` -i / --ignore-ssl``` Ignore SSL errors.
 
-🟡``` --save ``` Save the result to a file named result.txt next to tampermap.py file
+``` --save ``` Save the result to a file named result.txt next to tampermap.py file
 
-Options in blue and green <ins>cannot</ins> be used together.
+
 
 ___
 # *Additional information:*
